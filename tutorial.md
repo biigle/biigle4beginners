@@ -61,10 +61,9 @@ Which of the following are **not** part of an image annotation?
 - [[X]] The date and time when the image was taken
 - [[ ]] A label that classifies the shape
 - [[X]] A screenshot of the image region marked by the shape
-
-************************
+***
 An image annotation consists only of a shape and a label. Image metadata is recorded separately and screenshots can be derived from the image and the annotation later.
-************************
+***
 
 ---
 
@@ -128,10 +127,9 @@ True or false: you can mix images and videos in the same volume.
 
 - [( )] True
 - [(X)] False
-
-************************
+***
 A volume can contain only images or videos but not both.
-************************
+***
 
 Which role is recommended for a PhD student who actively annotates but should not overwrite their colleagues' work?
 
@@ -139,10 +137,9 @@ Which role is recommended for a PhD student who actively annotates but should no
 - [(X)] Editor
 - [( )] Expert
 - [( )] Admin
-
-************************
+***
 A project editor can create and modify their own annotations but cannot delete the annotations of other users.
-************************
+***
 
 ### Task
 
