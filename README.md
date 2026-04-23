@@ -8,7 +8,7 @@ The tutorial is written in [LiaScript](https://liascript.github.io) and covers t
 
 Open the tutorial in LiaScript:
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/biigle/biigle4beginners/main/tutorial.md)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/biigle/biigle4beginners/refs/heads/main/tutorial.md)
 
 ## Chapters
 
