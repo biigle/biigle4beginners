@@ -14,7 +14,7 @@ Open the tutorial in LiaScript:
 
 1. Introduction to BIIGLE
 2. Sign Up and Log In
-3. How BIIGLE Organizes Data
+3. Organizing Data
 4. Label Trees
 5. Creating a Volume
 6. Annotating Images
