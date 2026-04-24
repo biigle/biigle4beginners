@@ -313,9 +313,120 @@ Create an image or a video volume in your project using the provided sample file
 
 A storage request and its uploaded files are automatically deleted:
 
-- [( )] After 6 months
-- [(X)] After 12 months
-- [( )] Never
+- [( )] after 6 months
+- [(X)] after 12 months
+- [( )] never
 ***
-A storage request and its uploaded files are deleted after 12 months unless the storage request is manually extended before it expires.
+A storage request and its uploaded files are deleted after 12 months unless the storage request is manually extended before it expires. Volumes and annotation are never automatically deleted.
 ***
+
+---
+
+## Chapter 6: Annotating Images
+
+The most important features of BIIGLE are the image and video annotation tools. Both work fundamentally in the same way but have subtle differences. This chapter first introduces the image annotation tool.
+
+### Opening the annotation tool
+
+From the volume overview, click any image thumbnail to open the image annotation tool. The image annotation tool consists of two sections, the image and the sidebar.
+
+TODO: screenshot with annotated sections and toolbar
+
+<section>
+
+#### The image
+
+The image can be zoomed and panned, similar to what you may be used to from an interactive map. On the top right there is a minimap, showing the full image as well as an indicator of your current viewport. On the top left there are buttons to zoom the image to the full resolution or to fit it to your browser window.
+
+At the bottom of the image there is a toolbar with buttons for navigation and annotation. Use the left/right arrow buttons to navigate to the previous/next image of the volume. The remaining buttons allow you to draw annotations with various shapes or to modify existing annotations.
+
+</section>
+
+<section>
+
+#### The sidebar
+
+The sidebar on the right gives access to tools and context that you may need while annotating. From top to bottom the tabs are:
+
+- **Annotations**: This is a list of all annotations on the image. Click on an item in the list to select and highlight the annotation. here you can also see who has created the annotation.
+- **Label Trees**: This tab shows a list of all label trees that are available in the volume. Here you can select the label that you want to use for the next annotation. BIIGLE offers some advanced features such as favourite labels ot LabelBOT to speed up the label selection during annotation. Take a look at [the manual](https://biigle.de/manual) if you are curious.
+- **Annotation Modes**: Annotation modes allow you to step through the images of a volume in a well-defined way. For example, lawnmower mode lets you systematically scan the images on a fixed zoom level or random sampling automatically creates point annotations so you only have to choose their labels.
+- **Image Labels**: Sometimes you want to attach a label to the whole image (e.g. if it has "bad quality"). This tab lists all existing image labels and allows you to attach new ones.
+- **Color Adjustment**: Here you can adjust brightness, contrast, gamma, etc. to make faint objects more visible.
+- **Settings**: This tab offers varous toggles and options to customize the annotation tool to your needs. You also find a button to show all available keyboard shortcuts here.
+
+</section>
+
+### Creating an annotation
+
+The workflow to create a new annotation is always the same sequence: select the label, select the shape, then draw:
+
+1. Open the label trees tab and click a label. The currently selected label is indicated at the bottom-right of the image area so you see it even if the sidebar is closed.
+2. Select a shape from the toolbar at the bottom of the image.
+3. Draw the annotation on the image.
+
+### Annotation shapes
+
+TODO: Add icons for shapes
+
+| Shape | How to draw |
+|-------|-------------|
+| **Point** | One click on the target. |
+| **Rectangle** | The two first clicks mark the main axis of the object. The third click defines the width of the rotated rectangle. There is also an option for aligned rectangles that can be drawn with two clicks. |
+| **Circle** | The first click defines the center and the second click the radius of the circle. |
+| **Line string** | Start the line with a click. Each subsequent click extends the line. A double-click finishes the line. |
+| **Polygon** | Start the polygon with a click. Subsequent clicks add points to the polygon. A double-click finishes the polygon. |
+
+There are also more advanced annotation shapes and tools available. Explore the buttons and [the manual](https://biigle.de/manual) if you are curious.
+
+### Editing and deleting annotations
+
+There are several ways to edit an existing annotation:
+
+- **Modify shape**: Hover over a vertex of an annotation to reveal a handle, then drag it to update the annotation.
+- **Attach label**: Activate the attach label tool and click on an existing annotation to attach an additional label to it.
+- **Move annotations**: Activate the move tool, then click and annotation to select it. Now you can drag the annotation to move it.
+
+Selected annotations are deleted by pressing on the **Delete** button in the toolbar or <kbd>Del</kbd>.
+
+### Quiz
+
+In what order must you set things up to create an annotation?
+
+- [( )] Draw the shape, then assign a label
+- [(X)] Select a label, then draw the shape
+- [( )] It does not matter
+***
+You have to select the label first and then draw the shape. When the shape is finished, the new annotation is immediately created.
+***
+
+Which shape requires the fewest clicks to draw?
+
+- [( )] Rectangle
+- [( )] Circle
+- [(X)] Point
+- [( )] Line string
+- [( )] Polygon
+***
+Points are quickest to draw but beware: Points and line strings cannot be used as training data for modern computer vision models!
+***
+
+### Task
+
+Open one of your images. Using labels from the label tree you created in Chapter 4, create at least one annotation of each of these shapes: Point, Rectangle, Circle, Polygon.
+
+<details>
+<summary>Solution</summary>
+
+1. Open your image volume and click a thumbnail to enter the image annotation tool.
+2. Open the **Label Trees** tab in the sidebar on the right and click a label.
+3. **Point**: Click the point tool in the bottom toolbar, then click an object.
+4. **Rectangle**: Click the rectangle tool, then click the "start" of an object (e.g. the head of a fish), then click the "end" (e.g. the tail) and finally expand the rectangle and click a third time to finish it.
+5. **Circle**: Click the circle tool, click the center of an object, then click its edge.
+6. **Polygon**: Click the polygon tool, click several vertices around an object, double-click the last vertex to close the shape.
+7. Every annotation is saved automatically. Switch to the **Annotations** tab in the sidebar to see them listed.
+
+</details>
+
+---
+
