@@ -286,7 +286,7 @@ Sample data: `TODO link to download page`
 Once you have uploaded files and the storage request was approved (or you have set up a remote location or storage disk), you can go ahead and create the volume.
 
 1. Open your project page and click **Create Volume**.
-2. Choose if you want to create an image volume or a Video Volume and click **Continue**.
+2. Choose if you want to create an image volume or a video volume and click **Continue**.
 3. Enter a volume name and choose **Uploaded files** as file source.
 4. In the file browser, click on a directory or on individual files (multiple files can be selected with <kbd>Ctrl</kbd>+Click) to select them for the volume.
 5. Click **Create**.
@@ -295,17 +295,18 @@ You will be immediately forwarded to the new volume page. It may take a few seco
 
 ### Task
 
-Create an image or a video volume in your project using the provided sample files (or your own). Verify that thumbnails appear in the volume overview.
+Create one image volume and one video volume in your project using the provided sample files (or your own). Verify that thumbnails appear in the volume overview.
 
 <details>
 <summary>Solution</summary>
 
 1. Open your project page and click **Create Volume**.
-2. Choose if you want to create an image volume or a video volume and click **Continue**.
+2. Select the "image volume" type and click **Continue**.
 3. Enter a volume name and choose **Uploaded files** as file source.
 4. In the file browser, click on the directory of uploaded files to select them for the volume.
 5. Click **Create**.
 6. Refresh the page after a few seconds to see the file thumbnails.
+7. Repeat with the "video volume" type.
 
 </details>
 
@@ -326,7 +327,7 @@ A storage request and its uploaded files are deleted after 12 months unless the 
 
 The most important features of BIIGLE are the image and video annotation tools. Both work fundamentally in the same way but have subtle differences. This chapter first introduces the image annotation tool.
 
-### Opening the annotation tool
+### Opening the image annotation tool
 
 From the volume overview, click any image thumbnail to open the image annotation tool. The image annotation tool consists of two sections, the image and the sidebar.
 
@@ -413,7 +414,7 @@ Points are quickest to draw but beware: Points and line strings cannot be used a
 
 ### Task
 
-Open one of your images. Using labels from the label tree you created in Chapter 4, create at least one annotation of each of these shapes: Point, Rectangle, Circle, Polygon.
+Open one of the images of the image volume you created in Chapter 5 in the image annotation tool. Using labels from the label tree you created in Chapter 4, create at least one annotation of each of these shapes: Point, Rectangle, Circle, Polygon.
 
 <details>
 <summary>Solution</summary>
@@ -430,3 +431,76 @@ Open one of your images. Using labels from the label tree you created in Chapter
 
 ---
 
+## Chapter 7: Annotating Videos
+
+The video annotation tool of BIIGLE works mostly similar to the image annotation tool. However, there are some key differences between image and video annotation. The most important difference between an image annotation and a video annotation is that the video annotation can span several frames/seconds of the video. This means that a video annotation can track an object in the video across different positions and video frames. The video annotation tool of BIIGLE is designed to support a workflow of creating both "single-frame" video annotations (marking an object in a still-image frame of the video) and "multi-frame" video annotations (tracking a moving object across multiple video frames).
+
+### Opening the video annotation tool
+
+Just like the image annotation tool, the video annotation tool is opened with a click on the video thumbnail in the video volume overview. In addition to the familiar sections for the video display and the sidebar, the video annotation tool also features a timeline below the video. The timeline allows you to see and manage video annotations across the whole duration of the video. Video annotations are shown in different tracks, one for each label, and can be selected, cut or linked similar to video clips in professional video editing software. Single-frame video annotations are shown as small bars in the timeline. Multi-frame video annotations are shown as long bars, depending on the duration of the annotation. Video playback can be controlled with buttons in the toolbar at the bottom of the video.
+
+TODO: screenshot with annotated sections and toolbar
+
+### Single-frame annotation
+
+A single-frame video annotation is just like an image annotation, it marks an object in a still-image frame of the video. But in addition to the workflow of creating image annotations (select the label, select the shape, then draw), creating a video annotation has an additional final "confirm" step. To create a single-frame video annotation:
+
+1. Pause the video at the desired frame.
+2. Select a label.
+3. Select a shape.
+4. Draw the annotation.
+5. Confirm by clicking the [CHECKMARK_ICON] button or pressing <kbd>Enter</kbd>.
+
+In the timeline, the new annotation appears as a small bar. This way you can easily see what is annotated when in the video.
+
+> If you only create single-frame annotations, there is a handy option "Single-Frame Annotation" in the settings tab. When enabled, video annotations are automatically confirmed when the shape was drawn.
+
+### Multi-frame annotation
+
+A multi-frame video annotation can track a moving object across multiple video frames. This is also the reason why creating video annotations requires an additional "confirm" step. The shape of a multi-frame annotation is drawn multiple times at different "keyframes". To create a multi-frame video annotation:
+
+1. Pause the video at the first frame where the object appears.
+2. Select a label.
+3. Select a shape.
+4. Draw the annotation. Don't confirm, yet.
+5. Play the video and pause at a subsequent frame.
+6. Redraw the shape at the object's new position. This creates a new keyframe for the annotation.
+7. Repeat for as many keyframes as you need.
+8. Confirm by clicking the [CHECKMARK_ICON] button or pressing <kbd>Enter</kbd>.
+
+In the timeline, the new annotation appears as a long bar spanning from the first to the last keyframe. Different to single-frame annotations, multi-frame annotations are visible as moving shapes when the video is played.
+
+> If you create lots of multi-frame annotations, check out BIIGLE's automatic object tracking in [the manual](https://biigle.de/manual/tutorials/videos/creating-video-annotations).
+
+### Task
+
+Open one of the images of the image volume you created in Chapter 5 in the image annotation tool. Using labels from the label tree you created in Chapter 4, create:
+
+1. One single-frame annotation of a visible object.
+2. One multi-frame annotation that tracks a moving object across multiple keyframes.
+
+<details>
+<summary>Solution</summary>
+
+**Single-keyframe annotation:**
+
+1. Open the volume and click the video thumbnail.
+2. Play the video and pause it where an object is clearly visible.
+3. Select a label in the sidebar.
+4. Select a shape tool (e.g., circle) in the toolbar at the bottom of the video.
+5. Draw the annotation.
+6. Press <kbd>Enter</kbd> to confirm the annotation.
+
+**Multi-frame annotation:**
+
+1. Open the volume and click the video thumbnail.
+2. Play the video and pause at a frame where a moving object first appears.
+3. Select a label in the sidebar.
+4. Select a shape tool (e.g., circle) in the toolbar at the bottom of the video.
+5. Draw the annotation.
+3. Play the video again and pause after a few frames.
+4. Redraw the shape at the object's new position.
+5. Repeat at least one more time.
+6. Press <kbd>Enter</kbd> to confirm the annotation.
+
+</details>
