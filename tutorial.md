@@ -549,3 +549,31 @@ Generate two reports for your image volume: an Abundance report and a CSV report
 6. Download both files and open them.
 
 </details>
+
+---
+
+## What's Next
+
+Congratulations! You have walked through the complete beginner workflow in BIIGLE:
+
+- signing up and understanding how data is organized,
+- creating label trees, projects, and volumes,
+- annotating both images and videos,
+- exporting your work as reports.
+
+There is a lot more that BIIGLE can do. Topics worth exploring once you are comfortable with the basics:
+
+- **Largo**: batch review of many annotations of the same label at once, perfect for quality control or a two-stage annotation workflow.
+- **Magic SAM**: turn a single click into a precise polygon.
+- **LabelBOT**: let BIIGLE suggest labels for your new annotations.
+- **Annotation sessions**: time-boxed annotation for reproducible studies or teaching.
+- **BIIGLE API**: script BIIGLE from the outside, great for custom reports, bulk operations or integration with other software.
+
+### Resources
+
+- [BIIGLE manual](https://biigle.de/manual): the full reference documentation
+- [BIIGLE newsletter](https://biigle.de/newsletter): occasional updates on new features
+- [BIIGLE on GitHub](https://github.com/biigle): open-source code for self-hosting and development
+- [BIIGLE API documentation](https://biigle.de/doc/api/index.html): endpoints and rate limits
+
+Happy annotating!
