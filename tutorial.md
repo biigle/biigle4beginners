@@ -9,7 +9,7 @@ comment:  An open educational resource introducing the BIIGLE image and video an
 
 # BIIGLE for Beginners
 
-**BIIGLE** (Bio-Image Indexing and Graphical Labeling Environment) is a free, web-based platform for annotating images and videos from scientific surveys. Applications range from marine imagery by remotely operated vehicles, drop cameras, or autonomous underwater vehicles to terrestrial imagery and microscopy.
+**BIIGLE** is a free, web-based platform for annotating images and videos from scientific surveys. Applications range from marine imagery by remotely operated vehicles, drop cameras, or autonomous underwater vehicles to terrestrial imagery and microscopy.
 
 This tutorial teaches the complete beginner workflow: from creating a user account, through setting up projects and annotating data, to exporting the results. Each chapter introduces one concept, then gives you a hands-on task to solve on [biigle.de](https://biigle.de).
 
@@ -99,7 +99,7 @@ Create a BIIGLE account at [biigle.de](https://biigle.de) and open the dashboard
 
 ## Chapter 3: Organizing Data
 
-BIIGLE support image and video annotation of large datasets in a collaborative way. This chapter introduces the data hierarchy of BIIGLE and the building blocks that are important for data organization and collaboration.
+BIIGLE supports image and video annotation of large datasets in a collaborative way. This chapter introduces the data hierarchy of BIIGLE and the building blocks that are important for data organization and collaboration.
 
 ### The three-level hierarchy
 
@@ -152,9 +152,9 @@ Create a new project on [biigle.de](https://biigle.de) with a name and short des
 <summary>Solution</summary>
 
 1. On the dashboard, click on the **Create Project** button.
-3. Enter a **name** (e.g., "My First Project") and a short **description**.
-4. Click **Create**.
-5. The project page will automatically open. This is where you manage volumes, label trees, and members.
+2. Enter a **name** (e.g., "My First Project") and a short **description**.
+3. Click **Create**.
+4. The project page will automatically open. This is where you manage volumes, label trees, and members.
 
 </details>
 
@@ -274,11 +274,11 @@ Sample data: `TODO link to download page`
 <summary>Solution</summary>
 
 1. Optional: Download the sample data from the link above.
-1. Visit the dashboard and click on the **Upload Files** button.
-2. Create a (virtual) directory to organize the files of the storage request by clicking on the **Add directory** button and entering the directory name.
-3. Click on the **Add files** button to choose files from your computer that should be added to the new directory of the storage request.
-4. Click the **Submit** button to start the upload. Wait for the upload to finish.
-5. Wait for BIIGLE admin approval of the storage request (you will receive an email).
+2. Visit the dashboard and click on the **Upload Files** button.
+3. Create a (virtual) directory to organize the files of the storage request by clicking on the **Add directory** button and entering the directory name.
+4. Click on the **Add files** button to choose files from your computer that should be added to the new directory of the storage request.
+5. Click the **Submit** button to start the upload. Wait for the upload to finish.
+6. Wait for BIIGLE admin approval of the storage request (you will receive an email).
 </details>
 
 ### Creating the volume
@@ -350,11 +350,11 @@ At the bottom of the image there is a toolbar with buttons for navigation and an
 The sidebar on the right gives access to tools and context that you may need while annotating. From top to bottom the tabs are:
 
 - **Annotations**: This is a list of all annotations on the image. Click on an item in the list to select and highlight the annotation. here you can also see who has created the annotation.
-- **Label Trees**: This tab shows a list of all label trees that are available in the volume. Here you can select the label that you want to use for the next annotation. BIIGLE offers some advanced features such as favourite labels ot LabelBOT to speed up the label selection during annotation. Take a look at [the manual](https://biigle.de/manual) if you are curious.
-- **Annotation Modes**: Annotation modes allow you to step through the images of a volume in a well-defined way. For example, lawnmower mode lets you systematically scan the images on a fixed zoom level or random sampling automatically creates point annotations so you only have to choose their labels.
+- **Label Trees**: This tab shows a list of all label trees that are available in the volume. Here you can select the label that you want to use for the next annotation. BIIGLE offers some advanced features such as favourite labels or LabelBOT to speed up the label selection during annotation. Take a look at [the manual](https://biigle.de/manual) if you are curious.
+- **Annotation Modes**: Annotation modes allow you to step through the images of a volume in a well-defined way. For example, lawnmower mode lets you systematically scan the images at a fixed zoom level or random sampling automatically creates point annotations so you only have to choose their labels.
 - **Image Labels**: Sometimes you want to attach a label to the whole image (e.g. if it has "bad quality"). This tab lists all existing image labels and allows you to attach new ones.
 - **Color Adjustment**: Here you can adjust brightness, contrast, gamma, etc. to make faint objects more visible.
-- **Settings**: This tab offers varous toggles and options to customize the annotation tool to your needs. You also find a button to show all available keyboard shortcuts here.
+- **Settings**: This tab offers various toggles and options to customize the annotation tool to your needs. You also find a button to show all available keyboard shortcuts here.
 
 </section>
 
@@ -386,7 +386,7 @@ There are several ways to edit an existing annotation:
 
 - **Modify shape**: Hover over a vertex of an annotation to reveal a handle, then drag it to update the annotation.
 - **Attach label**: Activate the attach label tool and click on an existing annotation to attach an additional label to it.
-- **Move annotations**: Activate the move tool, then click and annotation to select it. Now you can drag the annotation to move it.
+- **Move annotations**: Activate the move tool, then click an annotation to select it. Now you can drag the annotation to move it.
 
 Selected annotations are deleted by pressing on the **Delete** button in the toolbar or <kbd>Del</kbd>.
 
@@ -474,7 +474,7 @@ In the timeline, the new annotation appears as a long bar spanning from the firs
 
 ### Task
 
-Open one of the images of the image volume you created in Chapter 5 in the image annotation tool. Using labels from the label tree you created in Chapter 4, create:
+Open one of the images of the video volume you created in Chapter 5 in the video annotation tool. Using labels from the label tree you created in Chapter 4, create:
 
 1. One single-frame annotation of a visible object.
 2. One multi-frame annotation that tracks a moving object across multiple keyframes.
@@ -498,10 +498,10 @@ Open one of the images of the image volume you created in Chapter 5 in the image
 3. Select a label in the sidebar.
 4. Select a shape tool (e.g., circle) in the toolbar at the bottom of the video.
 5. Draw the annotation.
-3. Play the video again and pause after a few frames.
-4. Redraw the shape at the object's new position.
-5. Repeat at least one more time.
-6. Press <kbd>Enter</kbd> to confirm the annotation.
+6. Play the video again and pause after a few frames.
+7. Redraw the shape at the object's new position.
+8. Repeat at least one more time.
+9. Press <kbd>Enter</kbd> to confirm the annotation.
 
 </details>
 
@@ -544,9 +544,9 @@ Generate two reports for your image volume: an Abundance report and a CSV report
 2. Click the [TODO: REPORT_ICON] button.
 3. Select the Abundance report variant
 4. Click **Request this report**.
-4. Repeat for the **CSV** variant.
-5. Wait for the email notification.
-6. Download both files and open them.
+5. Repeat for the **CSV** variant.
+6. Wait for the email notification.
+7. Download both files and open them.
 
 </details>
 
