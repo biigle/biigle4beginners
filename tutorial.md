@@ -283,7 +283,7 @@ Create a storage request and upload files for a new volume. You can use your own
 Sample data:
 
 - **Images**: An [image dataset](https://doi.org/10.1594/PANGAEA.946149) of the OBSEA observatory. You can download 33 sample JPEG images as a ZIP file [here](assets/obsea.zip).
-- **Mosaic**: An [image mosaic](https://science.nasa.gov/asset/webb/stephans-quintet-nircam-and-miri-composite-image/) for testing BIIGLE's support for large images. Download as TIF [here](https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2022/07/STScI-01G8H49RQ0E48YDM8WKW9PP5XS.png/jcr:content/renditions/Full%20Res%20(For%20Print).tif).
+- **Mosaic**: An [image mosaic](https://science.nasa.gov/asset/webb/stephans-quintet-nircam-and-miri-composite-image/) for testing BIIGLE's support for large images. Download as TIF [here](https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2022/07/STScI-01G8H49RQ0E48YDM8WKW9PP5XS.png/jcr:content/renditions/Full%20Res%20%28For%20Print%29.tif).
 - **Video**: A video from the [SO242/2 cruise](https://doi.org/10.1594/PANGAEA.865439) of research vessel SONNE. Download it [here](https://hs.pangaea.de/Images/Benthos/SO/SO242/all/SO242_2_163-1_LowerHD.mp4).
 
 <details>
@@ -389,11 +389,11 @@ The most important annotation shapes are:
 
 | Shape | How to draw |
 |-------|-------------|
-| ![point icon](assets/point.svg) **Point** | One click on the target. |
-| ![rectangle icon](assets/rectangle.svg) **Rectangle** | The two first clicks mark the main axis of the object. The third click defines the width of the rotated rectangle. |
-| ![circle icon](assets/circle.svg) **Circle** | The first click defines the center and the second click the radius of the circle. |
-| ![line string icon](assets/linestring.svg) **Line string** | Start the line with a click. Each subsequent click extends the line. A double-click finishes the line. |
-| ![polygon icon](assets/polygon.svg) **Polygon** | Start the polygon with a click. Subsequent clicks add points to the polygon. A double-click finishes the polygon. |
+| <img src="assets/point.svg" alt="point" style="height:1em;vertical-align:middle;"> **Point** | One click on the target. |
+| <img src="assets/rectangle.svg" alt="rectangle" style="height:1em;vertical-align:middle;"> **Rectangle** | The two first clicks mark the main axis of the object. The third click defines the width of the rotated rectangle. |
+| <img src="assets/circle.svg" alt="circle" style="height:1em;vertical-align:middle;"> **Circle** | The first click defines the center and the second click the radius of the circle. |
+| <img src="assets/linestring.svg" alt="line string" style="height:1em;vertical-align:middle;"> **Line string** | Start the line with a click. Each subsequent click extends the line. A double-click finishes the line. |
+| <img src="assets/polygon.svg" alt="polygon" style="height:1em;vertical-align:middle;"> **Polygon** | Start the polygon with a click. Subsequent clicks add points to the polygon. A double-click finishes the polygon. |
 
 There are also more advanced annotation shapes and tools available. Explore the buttons and [the manual](https://biigle.de/manual) if you are curious.
 
@@ -473,7 +473,7 @@ A single-frame video annotation is just like an image annotation, it marks an ob
 2. Select a label.
 3. Select a shape.
 4. Draw the annotation.
-5. Confirm by clicking the ![check icon](assets/check.svg) button or pressing <kbd>Enter</kbd>.
+5. Confirm by clicking the <img src="assets/check.svg" alt="check" style="height:1em;vertical-align:middle;"> button or pressing <kbd>Enter</kbd>.
 
 In the timeline, the new annotation appears as a small bar. This way you can easily see what is annotated when in the video.
 
@@ -488,7 +488,7 @@ A multi-frame video annotation can track a moving object across multiple video f
 5. Play the video and pause at a subsequent frame.
 6. Redraw the shape at the object's new position. This creates a new keyframe for the annotation.
 7. Repeat for as many keyframes as you need.
-8. Confirm by clicking the ![check icon](assets/check.svg) button or pressing <kbd>Enter</kbd>.
+8. Confirm by clicking the <img src="assets/check.svg" alt="check" style="height:1em;vertical-align:middle;"> button or pressing <kbd>Enter</kbd>.
 
 In the timeline, the new annotation appears as a long bar spanning from the first to the last keyframe. Unlike single-frame annotations, multi-frame annotations are visible as moving shapes when the video is played.
 
@@ -547,7 +547,7 @@ Reports can be generated for single volumes or entire projects.
 ### Generating a report
 
 1. Open your volume or project.
-2. Click the **Reports** tab of the project overview or the [file icon](assets/file.svg) button in the volume overview.
+2. Click the **Reports** tab of the project overview or the <img src="assets/file.svg" alt="file" style="height:1em;vertical-align:middle;"> button in the volume overview.
 3. Select a report type and variant.
 4. Click **Request this report**.
 
@@ -561,7 +561,7 @@ Generate two reports for your image volume: an Abundance report and a CSV report
 <summary>Solution</summary>
 
 1. Open your image volume.
-2. Click the [file icon](assets/file.svg) button.
+2. Click the <img src="assets/file.svg" alt="file" style="height:1em;vertical-align:middle;"> button.
 3. Select the Abundance report variant.
 4. Click **Request this report**.
 5. Repeat for the CSV variant.
@@ -583,11 +583,11 @@ Congratulations! You have walked through the complete beginner workflow in BIIGL
 
 There is a lot more that BIIGLE can do. Topics worth exploring once you are comfortable with the basics:
 
-- **[Largo](https://biigle.de/manual/tutorials/largo/largo)**: batch review of many annotations of the same label at once, perfect for quality control or a two-stage annotation workflow.
-- **[Magic SAM](https://biigle.de/manual/tutorials/annotations/creating-annotations#magic-sam)**: turn a single click into a precise polygon.
-- **[LabelBOT](https://biigle.de/manual/tutorials/labelbot/labelbot)**: let BIIGLE suggest labels for your new annotations.
-- **[Annotation sessions](https://biigle.de/manual/tutorials/volumes/annotation-sessions)**: time-boxed annotation for reproducible studies or teaching.
-- **[BIIGLE API](https://biigle.de/doc/api/index.html)**: script BIIGLE from the outside, great for custom reports, bulk operations or integration with other software.
+- [Largo](https://biigle.de/manual/tutorials/largo/largo): batch review of many annotations of the same label at once, perfect for quality control or a two-stage annotation workflow.
+- [Magic SAM](https://biigle.de/manual/tutorials/annotations/creating-annotations#magic-sam): turn a single click into a precise polygon.
+- [LabelBOT](https://biigle.de/manual/tutorials/labelbot/labelbot): let BIIGLE suggest labels for your new annotations.
+- [Annotation sessions](https://biigle.de/manual/tutorials/volumes/annotation-sessions): time-boxed annotation for reproducible studies or teaching.
+- [BIIGLE API](https://biigle.de/doc/api/index.html): script BIIGLE from the outside, great for custom reports, bulk operations or integration with other software.
 
 ### Resources
 
