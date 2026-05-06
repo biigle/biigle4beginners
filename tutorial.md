@@ -3,21 +3,22 @@ author:   Martin Zurowietz
 email:    m.zurowietz@uni-bielefeld.de
 version:  1.0.0
 language: en
-narrator: US English Female
+narrator: English Female
 comment:  An open educational resource introducing the BIIGLE image and video annotation platform.
+logo:     https://raw.githubusercontent.com/biigle/logo/refs/heads/main/biigle-logo.png
 -->
 
 # BIIGLE for Beginners
 
-![biigle logo](assets/biigle-jelly.png)<!--style="display:block; margin:auto;"-->
-
-BIIGLE is a free, web-based platform for annotating images and videos from scientific surveys. Applications range from marine imagery by remotely operated vehicles, drop cameras, or autonomous underwater vehicles to terrestrial imagery and microscopy.
+BIIGLE is a free and open-source, web-based platform for annotating images and videos from scientific surveys. Applications range from marine imagery by remotely operated vehicles, drop cameras, or autonomous underwater vehicles to terrestrial imagery and microscopy.
 
 This tutorial teaches the complete beginner workflow: from creating a user account, through setting up projects and annotating data, to exporting the results. Each chapter introduces one concept, then gives you a hands-on task to solve on [biigle.de](https://biigle.de).
 
 Sample data is provided for the tasks. You may also use your own images and videos if you prefer.
 
 > This tutorial targets the public instance at [biigle.de](https://biigle.de). If you use a self-hosted BIIGLE instance, the steps are identical but the URL will differ.
+
+This tutorial is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
 
 ---
 
@@ -74,13 +75,13 @@ An image annotation consists only of a shape and a label. Image metadata is reco
 
 ## Chapter 2: Sign Up and Log In
 
-BIIGLE is a web-based application. It does not run on your own computer but is accessed remotely through a web browser. Each user has to create a user account so BIIGLE can tell them apart. This chapter explains how to create your user account so you can access BIIGLE.
+BIIGLE is a web-based application and does not run on your own computer. Instead, it is accessed remotely through a web browser. Each user has to create a user account so BIIGLE can tell them apart. This chapter explains how to create your user account so you can access BIIGLE.
 
 ### Creating an account
 
-To create a user account, go to [biigle.de](https://biigle.de) and click **Sign up**. You can use a federated user account via Life Science Login (supports European institutes and universities as well as ORCID, Google and more) or NFDI Login (supports German institutes), or create a dedicated user account by clicking on "use your personal email address". Fill in your email, name, affiliation, and password and click **Sign up**.
+To create a user account, go to [biigle.de](https://biigle.de) and click **Sign up**. You can use a federated user account via Life Science Login (supports European institutes and universities as well as ORCID, Google and more) or NFDI Login (supports German institutes). You can also create a dedicated user account by clicking on "use your personal email address". Fill in your email, name, affiliation, and password and click **Sign up**.
 
-Once you are logged in, you land on your dashboard. This is the starting point for everything you do in BIIGLE: it lists your projects, volumes, and recent activity.
+Once you are logged in, you arrive on your dashboard. This is the starting point for everything you do in BIIGLE: it lists your projects, volumes, and recent activity.
 
 > New accounts on biigle.de need to be approved by a BIIGLE admin before they can access all features (e.g. upload data or create projects and label trees). Approval usually takes no more than one business day.
 >
@@ -111,7 +112,7 @@ BIIGLE supports image and video annotation of large datasets in a collaborative 
 
 Your work in BIIGLE is organized in three nested levels. We start from the bottom:
 
-1. An **image or video** is the file that you uploaded or linked to BIIGLE. This is what you want to annotate.
+1. An **image or video** is the file that you upload or link to BIIGLE. This is what you want to annotate.
 2. A **volume** is a collection of images or videos that belong together, similar to a directory on your computer. A volume can contain either images or videos but not both.
 3. A **project** is the top-level container. It groups volumes and controls which users have access to them.
 
@@ -123,24 +124,24 @@ Every user in a project has one of four roles:
 
 | Role | Permissions |
 |------|-------------|
-| **Guest** | Can see volumes, files, and annotations (view-only) |
-| **Editor** | Can create, edit, and delete *their own* annotations |
-| **Expert** | Can create, edit, and delete annotations of *any* user of the project |
-| **Admin** | Can manage members, volumes, label trees, project settings (full control) |
+| **Guest** | Can see volumes, files, and annotations (view-only). |
+| **Editor** | Can create, edit, and delete *their own* annotations. |
+| **Expert** | Can create, edit, and delete annotations of *any* user of the project. |
+| **Admin** | Can manage members, volumes, label trees, project settings (full control). |
 
 The user who creates a project is automatically its admin.
 
 ### Quiz
 
-True or false: you can mix images and videos in the same volume.
+Can you mix images and videos in the same volume?
 
-- [( )] True
-- [(X)] False
+- [( )] Yes
+- [(X)] No
 ***
 A volume can contain only images or videos but not both.
 ***
 
-Which role is recommended for a PhD student who actively annotates but should not overwrite their colleagues' work?
+Which role is recommended for a user who actively annotates but should not overwrite their colleagues' work?
 
 - [( )] Guest
 - [(X)] Editor
@@ -169,7 +170,7 @@ The project page will automatically open. This is where you manage volumes, labe
 
 ## Chapter 4: Label Trees
 
-One challenge of collaborative annotation is ensuring all annotators use a shared vocabulary. BIIGLE provides shareable "label trees" to address this challenge, which are explained in this chapter.
+One challenge of collaborative annotation is ensuring all annotators use a shared vocabulary. BIIGLE provides shareable *label trees* to address this challenge, which are explained in this chapter.
 
 ### What is a label tree?
 
@@ -186,7 +187,7 @@ A small example:
 └─● Elasmobranchii
 ```
 
-Label trees are managed separately from projects. One carefully curated label tree can be attached to several projects at once, so that different research projects share the exact same vocabulary.
+Label trees are managed separately from projects. One carefully curated label tree can be attached to several projects at once, so that different annotation projects share the exact same vocabulary.
 
 ### Visibility
 
@@ -245,9 +246,9 @@ This chapter introduces the volume as the fundamental building block for a datas
 
 ### What is a volume?
 
-A volume is a named collection of either images or videos. You can think of a volume as a directory of files on your computer. A volume typically includes all images of one particular transect, for example, or videos of one ROV dive.
+A volume is a named collection of either images or videos. You can think of a volume as a directory of files on your computer. For example, a volume typically includes all images of one particular transect or videos of one ROV dive.
 
-Each volume belongs to a project and the project overview page lists all of its volumes. A click on a volume thumbnail opens the volume overview where you can browse thumbnails of all images or videos that belong to this volume.
+Each volume belongs to a project. The project overview page lists all of its volumes. A click on a volume thumbnail opens the volume overview. Here you can browse thumbnails of all images or videos that belong to this volume.
 
 ### Where do the files come from?
 
@@ -255,9 +256,11 @@ Since BIIGLE is a web application, it cannot read files directly from your compu
 
 BIIGLE supports three different sources for files:
 
-- **Storage Request**: Files are uploaded from your computer to the BIIGLE server. Each upload is called a "Storage Request" which is reviewed by the BIIGLE admins before the files can be used for a new volume. This is the simplest option and recommended for this tutorial.
+- **Storage Request**: Files are uploaded from your computer to the BIIGLE server. Each upload is called a *Storage Request* which is reviewed by the BIIGLE admins before the files can be used for a new volume. This is the simplest option and recommended for this tutorial.
 - **Remote Location**: You set up a public web server that BIIGLE can query to access the files. The files stay under your control but the setup is more complicated and files can be accessed by anyone who knows the address of your web server.
 - **Storage Disks**: You set up storage with a cloud provider and authorize BIIGLE to access it. The files stay under your control and access is secure but cloud storage and data transfer can become expensive for large datasets.
+
+In all cases, BIIGLE will only be able to "look" at the original files. The files will never be modified.
 
 ### Uploading files
 
@@ -269,12 +272,13 @@ Files for a new volume can be uploaded as a Storage Request in BIIGLE.
 4. Once you have created all directories and selected all files, click the **Submit** button to start the upload.
 5. When the upload is complete, the storage request is automatically submitted for review by the BIIGLE admins.
 6. You receive a notification email if the storage request was approved or rejected.
+7. Once a storage request was approved, its files can be used for new volumes.
 
 You can create multiple directories and subdirectories to organize files in the storage request. You can also submit multiple storage requests for different directories. Files uploaded in different storage requests but to the same directory will be merged in your personal storage.
 
 > To avoid accumulating unused files, storage requests and their uploaded files are automatically deleted from the BIIGLE server after 12 months. You will receive a warning email a few weeks before expiration. Then, you also have the chance to extend the storage request for another 12 months if you still need the files for annotation.
 >
-> Volumes using uploaded files are never automatically deleted. If an uploaded file no longer exists, the image or video annotation tool will stop working but you can still access the volume and download annotation data as reports.
+> Volumes and annotations using uploaded files are never automatically deleted. If an uploaded file no longer exists, the image or video annotation tool will stop working but you can still access the volume and download annotation data as reports.
 
 ### Task
 
@@ -283,7 +287,7 @@ Create a storage request and upload files for a new volume. You can use your own
 Sample data:
 
 - **Images**: An [image dataset](https://doi.org/10.1594/PANGAEA.946149) of the OBSEA observatory. You can download 33 sample JPEG images as a ZIP file [here](assets/obsea.zip).
-- **Mosaic**: An [image mosaic](https://science.nasa.gov/asset/webb/stephans-quintet-nircam-and-miri-composite-image/) for testing BIIGLE's support for large images. Download as TIF [here](https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2022/07/STScI-01G8H49RQ0E48YDM8WKW9PP5XS.png/jcr:content/renditions/Full%20Res%20%28For%20Print%29.tif).
+- **Mosaic**: An [image mosaic](https://science.nasa.gov/asset/webb/stephans-quintet-nircam-and-miri-composite-image/) for testing BIIGLE's support for large images. Download as TIFF [here](https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2022/07/STScI-01G8H49RQ0E48YDM8WKW9PP5XS.png/jcr:content/renditions/Full%20Res%20%28For%20Print%29.tif).
 - **Video**: A video from the [SO242/2 cruise](https://doi.org/10.1594/PANGAEA.865439) of research vessel SONNE. Download it [here](https://hs.pangaea.de/Images/Benthos/SO/SO242/all/SO242_2_163-1_LowerHD.mp4).
 
 <details>
@@ -304,10 +308,10 @@ Once you have uploaded files and the storage request has been approved (or you h
 1. Open your project page and click **Create Volume** on the right.
 2. Choose if you want to create an image volume or a video volume and click **Continue**.
 3. Enter a volume name and choose **Uploaded files** as file source.
-4. In the file browser, click on a directory or on individual files (multiple files can be selected with <kbd>Ctrl</kbd>+Click) to select them for the volume.
+4. In the file browser, click on a directory or on individual files to select them for the volume. Multiple files can be selected with <kbd>Ctrl</kbd>+Click.
 5. Click **Create**.
 
-You will be immediately forwarded to the new volume page. It may take a few seconds until BIIGLE has generated the image thumbnails for the volume overview. Refresh the page to see them.
+You will be immediately forwarded to the new volume page. It may take a few seconds until BIIGLE has generated the file thumbnails for the volume overview. Refresh the page to see them.
 
 ### Task
 
@@ -383,17 +387,19 @@ The workflow to create a new annotation is always the same sequence: select the 
 2. Select a shape from the toolbar at the bottom of the image.
 3. Draw the annotation on the image.
 
+Every new annotation is saved automatically.
+
 ### Annotation shapes
 
 The most important annotation shapes are:
 
 | Shape | How to draw |
 |-------|-------------|
-| <img src="assets/point.svg" alt="point" style="height:1em;vertical-align:middle;"> **Point** | One click on the target. |
-| <img src="assets/rectangle.svg" alt="rectangle" style="height:1em;vertical-align:middle;"> **Rectangle** | The two first clicks mark the main axis of the object. The third click defines the width of the rotated rectangle. |
-| <img src="assets/circle.svg" alt="circle" style="height:1em;vertical-align:middle;"> **Circle** | The first click defines the center and the second click the radius of the circle. |
-| <img src="assets/linestring.svg" alt="line string" style="height:1em;vertical-align:middle;"> **Line string** | Start the line with a click. Each subsequent click extends the line. A double-click finishes the line. |
-| <img src="assets/polygon.svg" alt="polygon" style="height:1em;vertical-align:middle;"> **Polygon** | Start the polygon with a click. Subsequent clicks add points to the polygon. A double-click finishes the polygon. |
+| <img src="assets/point.svg" alt="point icon" style="height:1em;vertical-align:middle;"> **Point** | One click on the target. |
+| <img src="assets/rectangle.svg" alt="rectangle icon" style="height:1em;vertical-align:middle;"> **Rectangle** | The two first clicks mark the main axis of the object. The third click defines the width of the rotated rectangle. |
+| <img src="assets/circle.svg" alt="circle icon" style="height:1em;vertical-align:middle;"> **Circle** | The first click defines the center and the second click the radius of the circle. |
+| <img src="assets/linestring.svg" alt="line string icon" style="height:1em;vertical-align:middle;"> **Line string** | Start the line with a click. Each subsequent click extends the line. A double-click finishes the line. |
+| <img src="assets/polygon.svg" alt="polygon icon" style="height:1em;vertical-align:middle;"> **Polygon** | Start the polygon with a click. Subsequent clicks add points to the polygon. A double-click finishes the polygon. |
 
 There are also more advanced annotation shapes and tools available. Explore the buttons and [the manual](https://biigle.de/manual) if you are curious.
 
@@ -402,10 +408,12 @@ There are also more advanced annotation shapes and tools available. Explore the 
 There are several ways to edit an existing annotation:
 
 - **Modify shape**: Click on an annotation to select it. Then hover over the outline of the annotation to reveal a handle and drag this handle to update the annotation.
-- **Attach label**: Activate the attach label tool and click on an existing annotation to attach an additional label to it.
-- **Move annotations**: Activate the move tool, then click an annotation to select it. Now you can drag the annotation to move it.
+- <img src="assets/tag.svg" alt="tag icon" style="height:1em;vertical-align:middle;"> **Attach label**: Activate the attach label tool and click on an existing annotation to attach an additional label to it.
+- <img src="assets/arrows-alt.svg" alt="move icon" style="height:1em;vertical-align:middle;"> **Move annotations**: Activate the move tool, then click an annotation to select it. Now you can drag the annotation to move it.
 
-Selected annotations are deleted by pressing on the **Delete** button in the toolbar or <kbd>Del</kbd>.
+All modifications to an annotation are saved automatically.
+
+Selected annotations can be deleted by pressing on the <img src="assets/trash.svg" alt="delete icon" style="height:1em;vertical-align:middle;"> button in the toolbar or <kbd>Del</kbd>.
 
 ### Quiz
 
@@ -443,8 +451,6 @@ Open one of the images of the image volume you created in Chapter 5 in the image
 5. **Circle**: Click the circle tool, click the center of an object, then click its edge.
 6. **Polygon**: Click the polygon tool, click several vertices around an object, double-click the last vertex to close the shape.
 
-Every annotation is saved automatically. Switch to the **Annotations** tab in the sidebar to see them listed.
-
 </details>
 
 ---
@@ -453,7 +459,7 @@ Every annotation is saved automatically. Switch to the **Annotations** tab in th
 
 The video annotation tool of BIIGLE works mostly the same as the image annotation tool. The most important difference between an image annotation and a video annotation is that the video annotation can span several frames of the video. This means that a video annotation can track an object in the video across different positions and video frames.
 
-The video annotation tool of BIIGLE is designed to support a workflow of creating both "single-frame" video annotations (marking an object in a still-image frame of the video) and "multi-frame" video annotations (tracking a moving object across multiple video frames).
+The video annotation tool of BIIGLE is designed to support a workflow of creating both *single-frame* video annotations (marking an object in a still-image frame of the video) and *multi-frame* video annotations (tracking a moving object across multiple video frames).
 
 ### Opening the video annotation tool
 
@@ -467,7 +473,7 @@ Video playback can be controlled with buttons in the toolbar at the bottom of th
 
 ### Single-frame annotation
 
-A single-frame video annotation is just like an image annotation, it marks an object in a single frame of the video. But in addition to the workflow of creating image annotations (select the label, select the shape, then draw), creating a video annotation has an additional "confirm" step. To create a single-frame video annotation:
+A single-frame video annotation is just like an image annotation, it marks an object in a single frame of the video. But in addition to the workflow of creating image annotations (select the label, select the shape, then draw), creating a video annotation has an additional *confirm* step. To create a single-frame video annotation:
 
 1. Pause the video at the desired frame.
 2. Select a label.
@@ -479,7 +485,7 @@ In the timeline, the new annotation appears as a small bar. This way you can eas
 
 ### Multi-frame annotation
 
-A multi-frame video annotation can track a moving object across multiple video frames. This is the reason why creating video annotations requires an additional "confirm" step. The shape of a multi-frame annotation is drawn multiple times at different "keyframes". To create a multi-frame video annotation:
+A multi-frame video annotation can track a moving object across multiple video frames. This is the reason why creating video annotations requires an additional *confirm* step. The shape of a multi-frame annotation is drawn multiple times at different *keyframes*. To create a multi-frame video annotation:
 
 1. Pause the video at the first frame where the object appears.
 2. Select a label.
@@ -529,11 +535,11 @@ Open one of the videos of the video volume you created in Chapter 5 in the video
 
 ## Chapter 8: Exporting Reports
 
-BIIGLE is an annotation tool, not a long-term archive for files and annotations. Whenever you finish an annotation project you can download the annotation information as a report file for analysis and archival.
+BIIGLE is a specialized annotation tool and not suitable as a long-term archive for files and annotations. Whenever you finish an annotation project you should download the annotation information as a report file for analysis and archival.
 
 ### What is a report?
 
-A report is a file generated by BIIGLE that contains information about your annotations. There are several report types (e.g. image annotation report, video annotation report, and more) which determine what kind of information is included and several report variants that determine the format of the report. Here is a selection of available report variants (also see the [full list](https://biigle.de/manual/tutorials/reports/reports-schema)):
+A report is a file generated by BIIGLE that contains information about your annotations. There are several *report types* (e.g. image annotation report, video annotation report, and more) which determine what kind of information is included and several *report variants* that determine the format of the report. Here is a selection of available report variants (also see the [full list](https://biigle.de/manual/tutorials/reports/reports-schema)):
 
 | Report | Format | When to use it |
 |--------|--------|----------------|
@@ -583,11 +589,11 @@ Congratulations! You have walked through the complete beginner workflow in BIIGL
 
 There is a lot more that BIIGLE can do. Topics worth exploring once you are comfortable with the basics:
 
-- [Largo](https://biigle.de/manual/tutorials/largo/largo): batch review of many annotations of the same label at once, perfect for quality control or a two-stage annotation workflow.
+- [Largo](https://biigle.de/manual/tutorials/largo/largo): batch review many annotations with the same label at once. Perfect for quality control or a two-stage annotation workflow.
 - [Magic SAM](https://biigle.de/manual/tutorials/annotations/creating-annotations#magic-sam): turn a single click into a precise polygon.
 - [LabelBOT](https://biigle.de/manual/tutorials/labelbot/labelbot): let BIIGLE suggest labels for your new annotations.
 - [Annotation sessions](https://biigle.de/manual/tutorials/volumes/annotation-sessions): time-boxed annotation for reproducible studies or teaching.
-- [BIIGLE API](https://biigle.de/doc/api/index.html): script BIIGLE from the outside, great for custom reports, bulk operations or integration with other software.
+- [BIIGLE API](https://biigle.de/doc/api/index.html): script BIIGLE from the outside. Great for custom reports, bulk operations or integration with other software.
 
 ### Resources
 
