@@ -5,7 +5,7 @@ version:  1.0.0
 language: en
 narrator: English Female
 comment:  An open educational resource introducing the BIIGLE image and video annotation platform.
-logo:     https://raw.githubusercontent.com/biigle/logo/refs/heads/main/biigle-logo.png
+@icon:    https://raw.githubusercontent.com/biigle/logo/refs/heads/main/biigle-logo.png
 -->
 
 # BIIGLE for Beginners
