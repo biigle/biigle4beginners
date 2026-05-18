@@ -14,9 +14,11 @@ BIIGLE is a free and open-source, web-based platform for annotating images and v
 
 This tutorial teaches the complete beginner workflow: from creating a user account, through setting up projects and annotating data, to exporting the results. Each chapter introduces one concept, then gives you a hands-on task to solve on [biigle.de](https://biigle.de).
 
+The target audience is anyone who is new to BIIGLE and wants to learn how to set up their own annotation projects and how to annotate.
+
 Sample data is provided for the tasks. You may also use your own images and videos if you prefer.
 
-> This tutorial targets the public instance at [biigle.de](https://biigle.de). If you use a self-hosted BIIGLE instance, the steps are identical but the URL will differ.
+> This tutorial uses the public instance at [biigle.de](https://biigle.de). If you use a self-hosted BIIGLE instance, the steps are identical but the URL will differ.
 
 This tutorial is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
 
@@ -597,8 +599,9 @@ There is a lot more that BIIGLE can do. Topics worth exploring once you are comf
 
 ### Resources
 
-- [BIIGLE manual](https://biigle.de/manual): the full reference documentation
-- [BIIGLE newsletter](https://biigle.de/newsletter): occasional updates on new features or events
-- [BIIGLE on GitHub](https://github.com/biigle): open-source code for self-hosting and development
+- [Manual](https://biigle.de/manual): the full reference documentation
+- [Newsletter](https://biigle.de/newsletter): occasional updates on new features or events
+- [Code](https://github.com/biigle): open-source code for self-hosting and development
+- [Forum](https://github.com/orgs/biigle/discussions): for questions and feedback about BIIGLE or this tutorial
 
 *Happy annotating!*

@@ -4,6 +4,10 @@ A tutorial for [BIIGLE](https://biigle.de), a web-based platform for annotating 
 
 The tutorial is written in [LiaScript](https://liascript.github.io) and covers the complete beginner workflow: creating an account, setting up projects and label trees, annotating images and videos, and exporting reports.
 
+## Target audience
+
+Anyone who is new to BIIGLE and wants to learn how to set up their own annotation projects and how to annotate.
+
 ## View the tutorial
 
 Open the tutorial in LiaScript:
@@ -24,6 +28,10 @@ Open the tutorial in LiaScript:
 ## Sample data
 
 Sample images and a sample video are used in the hands-on tasks. Download links are provided inside the tutorial. You can also use your own data.
+
+## Questions and feedback
+
+If you have questions or feedback about this tutorial, please open a new [discussion](https://github.com/orgs/biigle/discussions).
 
 ## License
 
