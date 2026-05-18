@@ -282,7 +282,7 @@ You can create multiple directories and subdirectories to organize files in the 
 
 ### Task
 
-Create a storage request and upload files for a new volume. You can use your own files or the provided sample data. Supported image formats are JPEG, PNG, WebP and TIFF. Supported video formats are MP4 (H.264 and H.265/HEVC) and WebM (VP8, VP9, AV1).
+Create a storage request and upload at least one image and one video. You can use your own files or the provided sample data. Supported image formats are JPEG, PNG, WebP and TIFF. Supported video formats are MP4 (H.264 and H.265/HEVC) and WebM (VP8, VP9, AV1).
 
 Sample data:
 
