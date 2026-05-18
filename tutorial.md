@@ -61,14 +61,14 @@ In most cases, you can only achieve *two* of these at once.
 
 ### Quiz
 
-Which of the following are **not** part of an image annotation?
+Which of the following are part of an image annotation?
 
-- [[ ]] A shape drawn on the image
-- [[X]] The date and time when the image was taken
-- [[ ]] A label that classifies the shape
-- [[X]] A screenshot of the image region marked by the shape
+- [[X]] A marker drawn on the image
+- [[ ]] The date and time when the image was taken
+- [[X]] A label that classifies the marked image region
+- [[ ]] A screenshot of the marked image region
 ***
-An image annotation consists only of a shape and a label. Image metadata is recorded separately and screenshots can be derived from the image and the annotation later.
+An image annotation consists only of a marker and a label. Image metadata is recorded separately and screenshots can be derived from the image and the annotation later.
 ***
 
 ---
