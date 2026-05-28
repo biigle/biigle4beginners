@@ -60,7 +60,9 @@ All other material (unless otherwise noted): © 2026 by Martin Zurowietz [CC BY 
 
 ## How to cite
 
+```
 Zurowietz, M., Röder, J. (2026). *BIIGLE for Beginners* [Tutorial]. https://github.com/biigle/biigle4beginners
+```
 
 ```bibtex
 @misc{zurowietz2026biigle4beginners,
