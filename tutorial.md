@@ -19,6 +19,8 @@ The target audience is anyone who is new to BIIGLE and wants to learn how to set
 Sample data is provided for the tasks. You may also use your own images and videos if you prefer.
 
 > This tutorial uses the public instance at [biigle.de](https://biigle.de). If you use a self-hosted BIIGLE instance, the steps are identical but the URL will differ.
+>
+> New users and uploaded files on [biigle.de](https://biigle.de) must be approved by an admin. This usually takes no more than one business day. Please take the waiting time into account when you start the tutorial.
 
 This tutorial is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
 
@@ -49,17 +51,15 @@ In most cases, you can only achieve *two* of these at once.
 >
 > Annotation should be accurate and quick, while remaining sufficiently complete for scientific decision-making.
 
-### What you will learn
+### What you will learn in this course
 
-| Chapter | Topic |
-|---------|-------|
-| 2 | Signing up and the dashboard |
-| 3 | Projects, volumes, users, and roles |
-| 4 | Label trees (your annotation vocabulary) |
-| 5 | Creating image and video volumes |
-| 6 | Annotating images |
-| 7 | Annotating videos |
-| 8 | Exporting reports |
+- **Chapter 2**: [Signing up and the dashboard](#6)
+- **Chapter 3**: [Projects, volumes, users, and roles](#9)
+- **Chapter 4**: [Label trees (your annotation vocabulary)](#14)
+- **Chapter 5**: [Creating image and video volumes](#20)
+- **Chapter 6**: [Annotating images](#28)
+- **Chapter 7**: [Annotating videos](#35)
+- **Chapter 8**: [Exporting reports](#40)
 
 ### Quiz
 
@@ -85,7 +85,7 @@ To create a user account, go to [biigle.de](https://biigle.de) and click **Sign 
 
 Once you are logged in, you arrive on your dashboard. This is the starting point for everything you do in BIIGLE: it lists your projects, volumes, and recent activity.
 
-> New accounts on biigle.de need to be approved by a BIIGLE admin before they can access all features (e.g. upload data or create projects and label trees). Approval usually takes no more than one business day.
+> <img src="assets/user-shield.svg" alt="admin icon" style="height:1em;vertical-align:middle;"> New accounts on biigle.de need to be approved by a BIIGLE admin before they can access all features (e.g. upload data or create projects and label trees). Approval usually takes no more than one business day.
 >
 > You need a fully approved account before you can complete the tasks of the following chapters.
 
@@ -286,11 +286,13 @@ You can create multiple directories and subdirectories to organize files in the 
 
 Create a storage request and upload at least one image and one video. You can use your own files or the provided sample data. Supported image formats are JPEG, PNG, WebP and TIFF. Supported video formats are MP4 (H.264 and H.265/HEVC) and WebM (VP8, VP9, AV1).
 
+> <img src="assets/user-shield.svg" alt="admin icon" style="height:1em;vertical-align:middle;"> New storage requests on biigle.de need to be approved by a BIIGLE admin before the files can be used for new volumes. Approval usually takes no more than one business day.
+
 Sample data:
 
-- **Images**: An [image dataset](https://doi.org/10.1594/PANGAEA.946149) of the OBSEA observatory. You can download 33 sample JPEG images as a ZIP file [here](assets/obsea.zip).
-- **Mosaic**: An [image mosaic](https://science.nasa.gov/asset/webb/stephans-quintet-nircam-and-miri-composite-image/) for testing BIIGLE's support for large images. Download as TIFF [here](https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2022/07/STScI-01G8H49RQ0E48YDM8WKW9PP5XS.png/jcr:content/renditions/Full%20Res%20%28For%20Print%29.tif).
-- **Video**: A video from the [SO242/2 cruise](https://doi.org/10.1594/PANGAEA.865439) of research vessel SONNE. Download it [here](https://hs.pangaea.de/Images/Benthos/SO/SO242/all/SO242_2_163-1_LowerHD.mp4).
+- **Images**: An image dataset[^1] of the OBSEA observatory. You can download 33 sample JPEG images as a ZIP file [here](assets/obsea.zip).
+- **Mosaic**: An image mosaic[^2] for testing BIIGLE's support for large images. Download as TIFF [here](https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2022/07/STScI-01G8H49RQ0E48YDM8WKW9PP5XS.png/jcr:content/renditions/Full%20Res%20%28For%20Print%29.tif).
+- **Video**: An animated short film by Blender Studio[^3]. View it [here](assets/WING_IT!_-_Blender_Open_Movie-full_movie.webm). Right-click on the video and select "save as" to download it.
 
 <details>
 <summary>Solution</summary>
@@ -302,6 +304,13 @@ Sample data:
 5. Click the **Submit** button to start the upload. Wait for the upload to finish.
 6. Wait for BIIGLE admin approval of the storage request (you will receive an email).
 </details>
+
+
+[^1] Francescangeli, Marco; Aguzzi, Jacopo; Marini, Simone; Martinez Padro, Enoc; Nogueras Cervera, Marc; Toma, Daniel Mihai; Carandell Widmer, Matias; Masmitjà Rusiñol, Ivan; Sarrià Gandul, David; Garcia-Benadí, Albert; Cadena Muñoz, Javier; Bghiel, Ikram; Artero Delgado, Carola; Vidal, Neus; Gomariz Castro, Spartacus; Olive Duran, Joaquim; Santamaria, Pep; Manuel Lazaro, Antonio; Del Rio, Joaquin (2022): Underwater camera photos with manual tagging of fish species at OBSEA seafloor observatory from 2013 to 2014 [dataset]. PANGAEA, <https://doi.org/10.1594/PANGAEA.946149>
+
+[^2] NASA, ESA, CSA, & STScI. (2022, July 12). Stephan's Quintet (NIRCam and MIRI Composite Image). NASA. <https://science.nasa.gov/asset/webb/stephans-quintet-nircam-and-miri-composite-image/>
+
+[^3] "WING IT! - Blender Open Movie" by Blender Studio, licensed under CC BY 4.0. <https://commons.wikimedia.org/wiki/File:WING_IT!_-_Blender_Open_Movie-full_movie.webm>
 
 ### Creating the volume
 
