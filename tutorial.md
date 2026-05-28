@@ -10,7 +10,11 @@ icon:     https://raw.githubusercontent.com/biigle/logo/refs/heads/main/biigle-l
 
 # BIIGLE for Beginners
 
-BIIGLE is a free and open-source, web-based platform for annotating images and videos from scientific surveys. Applications range from marine imagery by remotely operated vehicles, drop cameras, or autonomous underwater vehicles to terrestrial imagery and microscopy.
+*Last update: 2026*
+
+A tutorial for [BIIGLE](https://biigle.de), a web-based platform for annotating images and videos.
+
+BIIGLE is a free and open-source platform for annotating images and videos from scientific surveys. Applications range from marine imagery by remotely operated vehicles, drop cameras, or autonomous underwater vehicles to terrestrial imagery and microscopy.
 
 This tutorial teaches the complete beginner workflow: from creating a user account, through setting up projects and annotating data, to exporting the results. Each chapter introduces one concept, then gives you a hands-on task to solve on [biigle.de](https://biigle.de).
 
@@ -22,7 +26,15 @@ Sample data is provided for the tasks. You may also use your own images and vide
 >
 > New users and uploaded files on [biigle.de](https://biigle.de) must be approved by an admin. This usually takes no more than one business day. Please take the waiting time into account when you start the tutorial.
 
-This tutorial is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
+**License**
+
+[OBSEA images](https://doi.pangaea.de/10.1594/PANGAEA.946149): © 2022 by Marco Francescangeli *et al.* [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+[WING IT video](https://video.blender.org/w/vrjS4NB4cwnJhrib8uEwi6): © 2023 by Blender Studio [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+[Icons](https://fontawesome.com/): © 2026 by Fonticons, Inc. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+All other material (unless otherwise noted): © 2026 by Martin Zurowietz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ---
 
@@ -37,7 +49,7 @@ An image annotation records *what* is *where* in an image. It combines two piece
 - a **marker**: a shape drawn on the image (e.g. a point, rectangle, circle, polygon, ...)
 - a **label**: a name or category assigned to that marker (e.g., "Fish", "Coral", "Tree")
 
-![a sea cucumber marked with the point annotation "Holothuroidea"](assets/image-annotation.jpg)
+![a sea cucumber marked with the point annotation "Holothuroidea"](assets/image-annotation.jpg "Image annotation example, © 2026 by ROV Team/GEOMAR and Martin Zurowietz (CC BY 4.0)")
 
 Scientific imaging surveys routinely produce tens of thousands of images and hours of video footage. Annotating these manually runs into a fundamental trade-off of whether the data is annotated quickly, accurately or completely:
 
@@ -292,7 +304,7 @@ Sample data:
 
 - **Images**: An image dataset[^1] of the OBSEA observatory. You can download 33 sample JPEG images as a ZIP file [here](assets/obsea.zip).
 - **Mosaic**: An image mosaic[^2] for testing BIIGLE's support for large images. Download as TIFF [here](https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2022/07/STScI-01G8H49RQ0E48YDM8WKW9PP5XS.png/jcr:content/renditions/Full%20Res%20%28For%20Print%29.tif).
-- **Video**: An animated short film by Blender Studio[^3]. View it [here](assets/WING_IT!_-_Blender_Open_Movie-full_movie.webm). Right-click on the video and select "save as" to download it.
+- **Video**: An animated short film by Blender Studio[^3]. Download it [here](assets/WING_IT!_-_Blender_Open_Movie-full_movie.webm).
 
 <details>
 <summary>Solution</summary>
@@ -363,7 +375,7 @@ The most important features of BIIGLE are the image and video annotation tools. 
 
 From the volume overview, click any image thumbnail to open the image annotation tool. The image annotation tool consists of two sections, the image on the left and the sidebar on the right.
 
-![screenshot of the image annotation tool](assets/image-annotation-tool.jpg)
+![screenshot of the image annotation tool](assets/image-annotation-tool.jpg "BIIGLE image annotation tool, © 2026 by Martin Zurowietz (CC BY 4.0)")
 
 <section>
 
@@ -480,7 +492,7 @@ The timeline allows you to see and manage video annotations across the whole dur
 
 Video playback can be controlled with buttons in the toolbar at the bottom of the video.
 
-![screenshot of the video annotation tool](assets/video-annotation-tool.jpg)
+![screenshot of the video annotation tool](assets/video-annotation-tool.jpg "BIIGLE video annotation tool, © 2026 by Martin Zurowietz (CC BY 4.0)")
 
 ### Single-frame annotation
 

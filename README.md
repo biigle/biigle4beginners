@@ -2,7 +2,9 @@
 
 A tutorial for [BIIGLE](https://biigle.de), a web-based platform for annotating images and videos.
 
-The tutorial is written in [LiaScript](https://liascript.github.io) and covers the complete beginner workflow: creating an account, setting up projects and label trees, annotating images and videos, and exporting reports.
+BIIGLE is a free and open-source platform for annotating images and videos from scientific surveys. Applications range from marine imagery by remotely operated vehicles, drop cameras, or autonomous underwater vehicles to terrestrial imagery and microscopy.
+
+This tutorial teaches the complete beginner workflow: from creating a user account, through setting up projects and annotating data, to exporting the results. Each chapter introduces one concept, then gives you a hands-on task to solve on [biigle.de](https://biigle.de).
 
 ## Target audience
 
@@ -17,7 +19,7 @@ Completing the tutorial takes around 2 hours (excluding waiting time, see below)
 
 ## View the tutorial
 
-Open the tutorial in LiaScript:
+The tutorial is available as LiaScript course:
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/biigle/biigle4beginners/refs/heads/main/tutorial.md)
 
@@ -40,17 +42,37 @@ Sample images and a sample video are used in the hands-on tasks. Download links 
 
 If you have questions or feedback about this tutorial, please open a new [discussion](https://github.com/orgs/biigle/discussions).
 
-## License
+## Authors
 
-[Icons](https://fontawesome.com/): © 2026 by Fonticons, Inc. [Font Awesome Free License](https://fontawesome.com/license/free)
+- Martin Zurowietz (https://orcid.org/0000-0002-7122-2343), Bielefeld Institute for Bioinformatics Infrastructure, Bielefeld University (https://ror.org/02hpadn98). Roles: Conceptualization, Visualization, Writing – original draft, Writing – review & editing
+
+- Juliane Röder (https://orcid.org/0000-0002-4692-2700), Philipps University of Marburg (https://ror.org/01rdrb571). Role: Writing – review & editing
+
+## License
 
 [OBSEA images](https://doi.pangaea.de/10.1594/PANGAEA.946149): © 2022 by Marco Francescangeli *et al.* [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 [WING IT video](https://video.blender.org/w/vrjS4NB4cwnJhrib8uEwi6): © 2023 by Blender Studio [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
+[Icons](https://fontawesome.com/): © 2026 by Fonticons, Inc. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
 All other material: © 2026 by Martin Zurowietz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-## Funding & Acknowledgment
+## How to cite
+
+Zurowietz, M., Röder, J., & Nattkemper, T. W. (2026). *BIIGLE for Beginners* [Tutorial]. https://github.com/biigle/biigle4beginners
+
+```bibtex
+@misc{zurowietz2026biigle4beginners,
+  author       = {Zurowietz, Martin and Röder, Juliane and Nattkemper, Tim W.},
+  title        = {{BIIGLE for Beginners}},
+  year         = {2026},
+  howpublished = {\url{https://github.com/biigle/biigle4beginners}},
+  note         = {Tutorial}
+}
+```
+
+## Funding and acknowledgment
 
 The development of this tutorial was supported by the German Research Foundation (DFG) within the project “Establishment of the National Research Data Infrastructure (NFDI)” in the consortium NFDI4Biodiversity (project number 442032008).
 
