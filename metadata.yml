@@ -1,0 +1,53 @@
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: BIIGLE for Beginners
+description: >-
+  A tutorial for BIIGLE (https://biigle.de), a web-based platform for annotating
+  images and videos.
+
+
+  The tutorial teaches the complete beginner workflow: from creating a user
+  account, through setting up projects and annotating data, to exporting the
+  results. Each chapter introduces one concept, then gives you a hands-on task
+  to solve on biigle.de.
+
+
+  The target audience is anyone who is new to BIIGLE and wants to learn how to
+  set up their own annotation projects and how to annotate.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://github.com/biigle/biigle4beginners
+creator:
+  - givenName: Martin
+    familyName: Zurowietz
+    id: https://orcid.org/0000-0002-7122-2343
+    type: Person
+    affiliation:
+      name: Universität Bielefeld
+      id: https://ror.org/02hpadn98
+      type: Organization
+  - givenName: Juliane
+    familyName: Röder
+    id: https://orcid.org/0000-0002-4692-2700
+    type: Person
+    affiliation:
+      name: Philipps-Universität Marburg
+      id: https://ror.org/01rdrb571
+      type: Organization
+keywords:
+  - image-annotation
+  - video-annotation
+  - liascript-course
+  - open-educational-resources
+  - NFDI4Biodiversity
+inLanguage:
+  - en
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+learningResourceType:
+  - https://w3id.org/kim/hcrt/course
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2026-05-28'
+isAccessibleForFree: true
+courseMode: online

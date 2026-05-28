@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "LearningResource",
+  "@id": "https://github.com/biigle/biigle4beginners",
+  "conformsTo": {
+    "@type": "CreativeWork",
+    "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"
+  },
+  "name": "BIIGLE for Beginners",
+  "description": "A tutorial for BIIGLE (https://biigle.de), a web-based platform for annotating images and videos.\n\nThe tutorial teaches the complete beginner workflow: from creating a user account, through setting up projects and annotating data, to exporting the results. Each chapter introduces one concept, then gives you a hands-on task to solve on biigle.de.\n\nThe target audience is anyone who is new to BIIGLE and wants to learn how to set up their own annotation projects and how to annotate.",
+  "creativeWorkStatus": "Published",
+  "datePublished": "2026-05-28",
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.de",
+  "isAccessibleForFree": true,
+  "inLanguage": ["en"],
+  "keywords": ["image-annotation", "video-annotation", "liascript-course", "open-educational-resources", "NFDI4Biodiversity"],
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://w3id.org/kim/hochschulfaechersystematik/n0"
+    }
+  ],
+  "learningResourceType": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://w3id.org/kim/hcrt/course"
+    }
+  ],
+  "educationalLevel": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://w3id.org/kim/educationalLevel/level_A"
+    }
+  ],
+  "courseMode": "online",
+  "creator": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7122-2343",
+      "givenName": "Martin",
+      "familyName": "Zurowietz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02hpadn98",
+        "name": "Universität Bielefeld"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4692-2700",
+      "givenName": "Juliane",
+      "familyName": "Röder",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01rdrb571",
+        "name": "Philipps-Universität Marburg"
+      }
+    }
+  ]
+}
