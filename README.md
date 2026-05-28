@@ -56,15 +56,15 @@ If you have questions or feedback about this tutorial, please open a new [discus
 
 [Icons](https://fontawesome.com/): © 2026 by Fonticons, Inc. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-All other material: © 2026 by Martin Zurowietz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+All other material (unless otherwise noted): © 2026 by Martin Zurowietz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## How to cite
 
-Zurowietz, M., Röder, J., & Nattkemper, T. W. (2026). *BIIGLE for Beginners* [Tutorial]. https://github.com/biigle/biigle4beginners
+Zurowietz, M., Röder, J. (2026). *BIIGLE for Beginners* [Tutorial]. https://github.com/biigle/biigle4beginners
 
 ```bibtex
 @misc{zurowietz2026biigle4beginners,
-  author       = {Zurowietz, Martin and Röder, Juliane and Nattkemper, Tim W.},
+  author       = {Zurowietz, Martin and Röder, Juliane},
   title        = {{BIIGLE for Beginners}},
   year         = {2026},
   howpublished = {\url{https://github.com/biigle/biigle4beginners}},
