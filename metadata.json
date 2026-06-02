@@ -1,7 +1,8 @@
 {
   "@context": "https://schema.org/",
   "@type": "LearningResource",
-  "@id": "https://github.com/biigle/biigle4beginners",
+  "@id": "https://doi.org/10.5281/zenodo.20505831",
+  "url": "https://github.com/biigle/biigle4beginners",
   "conformsTo": {
     "@type": "CreativeWork",
     "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE"
