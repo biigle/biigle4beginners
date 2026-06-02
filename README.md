@@ -61,16 +61,19 @@ All other material (unless otherwise noted): © 2026 by Martin Zurowietz [CC BY 
 ## How to cite
 
 ```
-Zurowietz, M., Röder, J. (2026). *BIIGLE for Beginners* [Tutorial]. https://github.com/biigle/biigle4beginners
+Martin Zurowietz, & Röder, J. (2026, May 28). biigle/biigle4beginners. Zenodo. https://doi.org/10.5281/zenodo.20505832
 ```
 
 ```bibtex
-@misc{zurowietz2026biigle4beginners,
-  author       = {Zurowietz, Martin and Röder, Juliane},
-  title        = {{BIIGLE for Beginners}},
-  year         = {2026},
-  howpublished = {\url{https://github.com/biigle/biigle4beginners}},
-  note         = {Tutorial}
+@misc{martin_zurowietz_2026_20505832,
+  author       = {Martin Zurowietz and
+                  Röder, Juliane},
+  title        = {biigle/biigle4beginners},
+  month        = may,
+  year         = 2026,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.20505832},
+  url          = {https://doi.org/10.5281/zenodo.20505832},
 }
 ```
 
