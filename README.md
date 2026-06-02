@@ -12,7 +12,7 @@ Anyone who is new to BIIGLE and wants to learn how to set up their own annotatio
 
 ## Required time
 
-Completing the tutorial takes approx. 2 hours (excluding waiting time, see below).
+Completing the tutorial takes less than 2 hours (excluding waiting time, see below).
 
 > [!IMPORTANT]
 > New users and uploaded files on [biigle.de](https://biigle.de) must be approved by an admin. This usually takes no more than one business day. Please take the waiting time into account when you start the tutorial.
@@ -44,9 +44,9 @@ If you have questions or feedback about this tutorial, please open a new [discus
 
 ## Authors
 
-- Martin Zurowietz (https://orcid.org/0000-0002-7122-2343), Bielefeld Institute for Bioinformatics Infrastructure, Bielefeld University (https://ror.org/02hpadn98). Roles: Conceptualization, Visualization, Writing – original draft, Writing – review & editing
+- **Martin Zurowietz** (https://orcid.org/0000-0002-7122-2343), Bielefeld Institute for Bioinformatics Infrastructure, Bielefeld University (https://ror.org/02hpadn98). Roles: Conceptualization, Visualization, Writing – original draft, Writing – review & editing
 
-- Juliane Röder (https://orcid.org/0000-0002-4692-2700), Philipps University of Marburg (https://ror.org/01rdrb571). Role: Writing – review & editing
+- **Juliane Röder** (https://orcid.org/0000-0002-4692-2700), Philipps University of Marburg (https://ror.org/01rdrb571). Role: Writing – review & editing
 
 ## License
 
