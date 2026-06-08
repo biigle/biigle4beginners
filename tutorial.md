@@ -18,15 +18,34 @@ BIIGLE is a free and open-source platform for annotating images and videos from 
 
 This tutorial teaches the complete beginner workflow: from creating a user account, through setting up projects and annotating data, to exporting the results. Each chapter introduces one concept, then gives you a hands-on task to solve on [biigle.de](https://biigle.de).
 
-The target audience is anyone who is new to BIIGLE and wants to learn how to set up their own annotation projects and how to annotate.
+<section>
+## Target Audience
 
-Sample data is provided for the tasks. You may also use your own images and videos if you prefer.
+Anyone who is new to BIIGLE and wants to learn how to set up their own annotation projects and how to annotate.
+</section>
 
-> This tutorial uses the public instance at [biigle.de](https://biigle.de). If you use a self-hosted BIIGLE instance, the steps are identical but the URL will differ.
->
+<section>
+## Required time
+
+Completing the tutorial takes less than 2 hours (excluding waiting time, see below).
+
 > New users and uploaded files on [biigle.de](https://biigle.de) must be approved by an admin. This usually takes no more than one business day. Please take the waiting time into account when you start the tutorial.
+</section>
 
-**License**
+<section>
+## Sample Data
+
+Sample images and a sample video are used in the hands-on tasks. Download links are provided inside the tutorial. You can also use your own data.
+</section>
+
+<section>
+## Questions and feedback
+
+If you have questions or feedback about this tutorial, please open a new [discussion](https://github.com/orgs/biigle/discussions).
+</section>
+
+<section>
+## License
 
 [OBSEA images](https://doi.pangaea.de/10.1594/PANGAEA.946149): © 2022 by Marco Francescangeli *et al.* [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
@@ -35,6 +54,10 @@ Sample data is provided for the tasks. You may also use your own images and vide
 [Icons](https://fontawesome.com/): © 2026 by Fonticons, Inc. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 All other material (unless otherwise noted): © 2026 by Martin Zurowietz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+</section>
+
+
+> This tutorial uses the public instance at [biigle.de](https://biigle.de). If you use a self-hosted BIIGLE instance, the steps are identical but the URL will differ.
 
 ---
 
