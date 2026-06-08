@@ -1,7 +1,6 @@
 <!--
 author:   Martin Zurowietz
 email:    m.zurowietz@uni-bielefeld.de
-version:  1.0.0
 language: en
 narrator: English Female
 comment:  An open educational resource introducing the BIIGLE image and video annotation platform.
