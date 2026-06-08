@@ -18,6 +18,9 @@ BIIGLE is a free and open-source platform for annotating images and videos from 
 
 This tutorial teaches the complete beginner workflow: from creating a user account, through setting up projects and annotating data, to exporting the results. Each chapter introduces one concept, then gives you a hands-on task to solve on [biigle.de](https://biigle.de).
 
+
+*This tutorial uses the public instance at [biigle.de](https://biigle.de). If you use a self-hosted BIIGLE instance, the steps are identical but the URL will differ.*
+
 <section>
 ## Target Audience
 
@@ -55,9 +58,6 @@ If you have questions or feedback about this tutorial, please open a new [discus
 
 All other material (unless otherwise noted): © 2026 by Martin Zurowietz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 </section>
-
-
-> This tutorial uses the public instance at [biigle.de](https://biigle.de). If you use a self-hosted BIIGLE instance, the steps are identical but the URL will differ.
 
 ---
 
