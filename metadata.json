@@ -45,7 +45,9 @@
         "@id": "https://ror.org/02hpadn98",
         "name": "Universität Bielefeld"
       }
-    },
+    }
+  ],
+  "contributor": [
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-4692-2700",

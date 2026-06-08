@@ -46,6 +46,8 @@ If you have questions or feedback about this tutorial, please open a new [discus
 
 - **Martin Zurowietz** (https://orcid.org/0000-0002-7122-2343), Bielefeld Institute for Bioinformatics Infrastructure, Bielefeld University (https://ror.org/02hpadn98). Roles: Conceptualization, Visualization, Writing – original draft, Writing – review & editing
 
+## Contributors
+
 - **Juliane Röder** (https://orcid.org/0000-0002-4692-2700), Philipps University of Marburg (https://ror.org/01rdrb571). Role: Writing – review & editing
 
 ## License
