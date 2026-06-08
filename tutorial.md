@@ -1,6 +1,7 @@
 <!--
 author:   Martin Zurowietz
 email:    m.zurowietz@uni-bielefeld.de
+version:  0.1.0
 language: en
 narrator: English Female
 comment:  An open educational resource introducing the BIIGLE image and video annotation platform.
@@ -9,7 +10,7 @@ icon:     https://raw.githubusercontent.com/biigle/logo/refs/heads/main/biigle-l
 
 # BIIGLE for Beginners
 
-*Last update: 2026*
+*Last update: June 2026*
 
 A tutorial for [BIIGLE](https://biigle.de), a web-based platform for annotating images and videos.
 
