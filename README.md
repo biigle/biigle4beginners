@@ -63,13 +63,12 @@ All other material (unless otherwise noted): © 2026 by Martin Zurowietz [CC BY 
 ## How to cite
 
 ```
-Martin Zurowietz, & Röder, J. (2026, May 28). biigle/biigle4beginners. Zenodo. https://doi.org/10.5281/zenodo.20505832
+Martin Zurowietz (2026, May 28). biigle/biigle4beginners. Zenodo. https://doi.org/10.5281/zenodo.20505832
 ```
 
 ```bibtex
 @misc{martin_zurowietz_2026_20505832,
-  author       = {Martin Zurowietz and
-                  Röder, Juliane},
+  author       = {Martin Zurowietz},
   title        = {biigle/biigle4beginners},
   month        = may,
   year         = 2026,
